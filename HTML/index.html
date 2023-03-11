@@ -1,0 +1,65 @@
+<!-- Doctype serve para dizer que o tipo do documento é html-->
+<!-- Aprendido em: https://www.youtube.com/watch?v=nPEpaft1y1k-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- <description> serve para dar uma breve descrição sobre o que é o site-->
+    <meta name="description" content="Esse é o meu primeiro site!">
+<!-- <keywords> serve para ajudar o site a ser achado por pesquisa-->
+    <meta name="keywords" content="primeiro, site, primeiro site, html, programacao, programaçao">
+<!-- <althor> serve para o google saber quem foi o autor, algo bastante importante-->
+    <meta name="author" content="Tiago Passos">
+    <title>Primeiro site</title>
+</head>
+<body>
+<!-- No vs code você pode comentar um código selecionando ele e utilizando o atalho: CTRL+K+C-->
+<!-- os h servem para head, ou seja, titulos, dos mais importantes para os menos importantes. <h1>,<h2>,<h3>,<h4>,<h5> e <h6>,Pode usar apenas um h1 por site-->
+<!-- hr serve para colocar uma linha horizontal-->
+    <hr>
+<!-- abbr serve para dizer que é uma abreviação-->
+    <h1>Aprendendo HTML</h1>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quis illum similique ipsum debitis doloribus nam, possimus recusandae magnam voluptatum! Mollitia quasi sint eius beatae natus tempore praesentium assumenda officiis!</p>
+    <h2>TAGS</h2>
+<!-- p>lorem te entrega um texto aleatório em latim, <b> == negrito "bold", <i> == italico, <u> == sublinhado "underline" e <q> == aspas-->
+    <p><b>Lorem ipsum dolor</b> <i>sit amet</i> <u>consectetur</u> adipisicing elit.</p>
+    <p><q>Voluptas</q> autem tempora non impedit quo necessitatibus sed! Incidunt, deserunt iste, vero voluptatem dolor illo, excepturi exercitationem repellendus recusandae maiores officiis! Expedita.</p>
+    <!-- <strong> para dar enfase, não apenas virar negrito, <small> para deixar menor, <del> para cortar, <mark> para marcar, não é muito utilizado, pois o CSS tai pra isso, <blockquote> utilizado para colocar o texto mais para dentro-->
+    <p><strong>Vamos aprender</strong> <small>muitas coisas.</small></p>
+    <p><blockquote>DE <mark><del>R$499,90</mark></del><br><b>POR APENAS <mark>R$397,90</mark></b></blockquote></p>
+<!-- br serve para pular linha, não é muito bom utiliza-la, pois será utilizado o CSS para modelar a página-->
+    <br>
+<!-- <sup> serve para colocar acima, e <sub> abaixo, também pode-se utilizar para texto-->
+    <p>3<sup>40</sup></p>
+    <p>3<sub>40</sub></p>
+    <h2>Elementos de citação</h2>
+<!-- abbr serve para dizer que é uma abreviação-->
+    <p>Aprendendo <abbr title="Hyper Text Markup Language">HTML</abbr></p>
+    <p>Você conheçe um site que começa com <abbr title="World Wide Web">WWW</abbr>?</p>
+    <p>Tiago
+    <address>
+    Rua do exemplo, 123, Centro, Cidade
+    </address></p>
+    <p>citando <cite>Titanic</cite></p>
+<!-- bdo serve para arrumar o texto da direita para esquerda, ou da esquerda para direita: rtl e ltr respectivamente-->
+    <p><bdo dir="rtl">algo</p>
+<!-- Abrir link na mesma aba-->
+    <br>
+    <h2>Links</h2>
+    <a href="sobre.html">Sobre</a>
+    <br>
+<!-- Abrir link em uma nova aba-->
+    <a href="https://google.com/" target="_blank">Ir para Google.com</a>
+    <br>
+<!-- Acessar pasta. Para voltar é só colocar ../index.html-->
+    <a href="outros/outros.html">Outros</a>
+    <h2>Imagem</h2>
+<!-- Imagens também podem ser colocadas em textos.
+Site com imagens gratuitas: pexels.com, site com ícones flaticon.com, também da para usar para um gif-->
+    <a href="outros/next.html"><img src="https://images.pexels.com/photos/13025682/pexels-photo-13025682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="80" alt="taxi amarelo na cidade"></a>
+    <p>Clique na imagem do carro para ir para a próxima página</p>
+</body>
+</html>

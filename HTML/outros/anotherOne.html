@@ -1,0 +1,56 @@
+<!-- continuar o video em 3:17:00-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anotherOne</title>
+</head>
+<body>
+    <h1>Continuação</h1>
+    <h2>Formulário</h2>
+<!-- Criando um formulário-->
+    <form>
+<!-- Label é para adicionar um texto, input para uma caixa onde o usuário pode digitar, tipos ultilizados: <text> para um texto qualquer, <password> para senha, <email> para email, <radio> para opções de escolhas unicas, <checkbox> para escolhas múltiplas,<select> para uma seleção, <button> para um botão, <submit> para enviar.-->
+<!-- required diz que o campo é obrigatório-->
+        <label for="nome"><b>Nome:</b></label>
+        <input id="nome" type="text" placeholder="Digite seu nome aqui" required><br><br>
+        <label for="email"><b>Email:</b></label>
+        <input id="email" type="email" placeholder="Digite seu email aqui" required><br><br>
+        <label for="senha"><b>Senha:</b></label>
+        <input id="senha" type="password" placeholder="Digite sua senha aqui" required><br><br>
+        <h2>O que você prefere?</h2>
+        <input id="dog" type="radio" name="animal" value="cachorro" required>
+        <label for="dog"><b>Cachorro</b></label>
+        <input id="cat" type="radio" name="animal" value="Gato" required>
+        <label for="cat"><b>Gato</b></label><br><br>
+        <h2>O que você tem em casa?</h2>
+        <input id="dog" type="checkbox" name="animal1" value="Cachorro">
+        <label for="dog"><b>Cachorro</b></label><br>
+        <input id="cat" type="checkbox" name="animal2" value="Gato">
+        <label for="cat"><b>Gato</b></label><br>
+        <input id="bird" type="checkbox" name="animal3" value="Passaro">
+        <label for="bird"><b>Pássaro</b></label><br>
+        <input id="rabbit" type="checkbox" name="animal4" value="Coelho">
+        <label for="rabbit"><b>Coelho</b></label><br><br>
+        <h2>Escolha uma cor</h2>
+        <select required>
+            <option selected disabled>Escolha</option>
+            <option value="vermelho">Vermelho</option>
+            <option value="verde">Verde</option>
+            <option value="azul">Azul</option>
+            <option value="amarelo">Amarelo</option>
+            <option value="preto">Preto</option>
+        </select><br><br>
+        <h2>Informações adicionais</h2>
+        <textarea name="Informações adicionais" placeholder="Informações adicionais sobre você" id="txtArea" cols="32" rows="10"></textarea>
+        <br><br><input type="submit" value="Enviar Formulário">
+<!-- &nbsp; serve para dar um espaço-->
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button>Enviar Formulário</button>
+    </form>
+    <br><br><a href="audio.html">Continuar</a>&nbsp;&nbsp;&nbsp;<a href="../index.html">Voltar a página principal</a>
+</body>
+</html>

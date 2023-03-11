@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semântico</title>
+<!-- Parte em CSS-->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+        }
+        .topo {
+            background-color: rgb(117, 117, 117);
+            padding: 20px;
+            text-align: center;
+        }
+        .menu {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .menu a {
+            color: white;
+            padding: 14px 16px;
+            float: left;
+            display: block;
+            text-decoration: none;
+        }
+        .coluna {
+            float: left;
+            padding: 20px;
+            width: 50%;
+            text-align: justify;
+            background-color: black;
+        }
+        .coluna h2, p {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<!-- o div não vai mudar nada, não no html, mas no CSS sim, pode chamar a primeira div de header, para saber que ela é o topo da sua página, assim como nav para o menu, assim como section para uma sessão do site-->
+    <header class="topo">
+        <h1>TOPO</h1>
+        <p>Parágrafo normal</p>
+    </header>
+    <nav class="menu">
+        <a href="index.html">Página Principal</a>
+        <a href="index.html">Página Principal</a>
+        <a href="index.html">Página Principal</a>
+        <a href="index.html">Página Principal</a>
+    </nav>
+    <section class="coluna">
+<!-- <article> serve para dizer que isso é um artigo-->
+        <article>
+            <h2>Coluna</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis autem consequatur est consequuntur alias, amet nemo vero molestias ducimus, magni quasi unde omnis magnam veritatis aperiam. Modi eligendi reprehenderit quis!</p>
+        </article>
+    </section>
+    <div class="coluna">
+        <article>
+            <h2>Outra coluna</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem iste minima quod delectus, necessitatibus asperiores! A laborum similique repellendus architecto minus quas placeat facilis explicabo, nam ex aspernatur provident voluptate.</p>
+        </article>
+    </div>
+</body>
+</html>
